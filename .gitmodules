@@ -1,0 +1,6 @@
+[submodule "WSDOT-Traveler-Info-DotNet-Client"]
+	path = WSDOT-Traveler-Info-DotNet-Client
+	url = https://github.com/WSDOT-GIS/WSDOT-Traveler-Info-DotNet-Client.git
+[submodule "WSDOT-Traveler-Info-Icons"]
+	path = WSDOT-Traveler-Info-Icons
+	url = https://github.com/WSDOT-GIS/WSDOT-Traveler-Info-Icons.git

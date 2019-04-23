@@ -1,0 +1,26 @@
+{
+  "name": "samplewebapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "webpack"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "ts-loader": "^5.4.3",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/arcgis-js-api": "^4.11.0",
+    "@types/webfontloader": "^1.6.29",
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "webfontloader": "^1.6.28"
+  }
+}

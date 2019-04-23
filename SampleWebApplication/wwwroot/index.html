@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>WSDOT Traffic</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.11/esri/themes/light/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <style>
+        html, body, #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="viewDiv"></div>
+    <script>
+        (function (root) {
+            const dojoConfig = {
+                async: true,
+                packages: [
+                    {
+                        name: "app",
+                        location: root + "/app",
+                    }
+                ]
+            }
+
+            window.dojoConfig = dojoConfig;
+        })(location.pathname.replace(/\/[^\/]*$/, ""));
+    </script>
+    <script src="https://js.arcgis.com/4.11/"></script>
+    <script>require(["app"])</script>
+</body>
+</html>
